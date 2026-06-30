@@ -1,0 +1,35 @@
+.button {
+  border: none;
+  padding: 10px 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button--primary {
+  background-color: navy;
+  color: white;
+  border-radius: 25px;
+}
+
+.button--secondary {
+  background-color: white;
+  color: navy;
+  border: 2px solid goldenrod;
+  border-radius: 8px;
+}
+
+.button--warning {
+  background-color: goldenrod;
+  color: navy;
+  border-radius: 0 20px 0 20px;
+}
+
+.button:hover {
+  opacity: 0.85;
+}
+
+.button:disabled {
+  background-color: lightgray;
+  color: gray;
+  cursor: not-allowed;
+}
