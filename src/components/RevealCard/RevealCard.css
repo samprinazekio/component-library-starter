@@ -1,0 +1,35 @@
+.reveal-card {
+  width: 300px;
+  border: 2px solid goldenrod;
+  border-radius: 18px;
+  background-color: white;
+  padding: 16px;
+}
+
+.reveal-card-button {
+  width: 100%;
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  padding: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reveal-card-button:hover {
+  background-color: #001f4d;
+}
+
+.reveal-card-button:focus {
+  outline: 3px solid goldenrod;
+  outline-offset: 3px;
+}
+
+.reveal-card-content {
+  margin-top: 12px;
+  padding: 12px;
+  background-color: #fff8dc;
+  color: navy;
+  border-radius: 12px;
+}p
